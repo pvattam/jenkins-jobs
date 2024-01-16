@@ -8,8 +8,8 @@
       - { name: "expense-project/CI-Jobs"}
       - { name: "expense-project/Infra-Jobs"}
     mb_jobs:
-      - { name: "expense-backend", folder: "expense-project/CI-Jobs"}
-      - { name: "expense-frontend", folder: "expense-project/CI-Jobs"}
+      - { name: "expense-backend", folder: "expense-project/CI-Jobs", repo: https://github.com/pvattam/expense-backend.git}
+      - { name: "expense-frontend", folder: "expense-project/CI-Jobs", repo: https://github.com/pvattam/expense-frontend.git}
     sb_jobs:
-      - { name: "expense-ansible", folder: "expense-project/Infra-Jobs" }
-      - { name: "expense-terraform", folder: "expense-project/Infra-Jobs" }
+      - { name: "expense-ansible", folder: "expense-project/Infra-Jobs", repo: https://github.com/pvattam/expense-ansible.git }
+      - { name: "expense-terraform", folder: "expense-project/Infra-Jobs", repo: https://github.com/pvattam/expense-terraform.git }
