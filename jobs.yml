@@ -12,10 +12,10 @@
       - { name: "expense-backend", folder: "expense-project/CI-Jobs", repo: "https://github.com/pvattam/expense-backend.git"}
       - { name: "expense-frontend", folder: "expense-project/CI-Jobs", repo: "https://github.com/pvattam/expense-frontend.git"}
     sb_jobs:
-      - { name: "expense-ansible", folder: "expense-project/Infra-Jobs", repo: "https://github.com/pvattam/expense-ansible.git", filename: "Jenkinsfile" }
-      - { name: "expense-terraform", folder: "expense-project/Infra-Jobs", repo: "https://github.com/pvattam/expense-terraform.git", filename: "Jenkinsfile" }
-      - { name: "golden-ami", folder: "miscellaneous", repo: "https://github.com/pvattam/golden-ami.git", filename: "Jenkinsfile" }
-      - { name: "aws-parameters", folder: "miscellaneous", repo: "https://github.com/pvattam/aws-parameter-store.git", filename: "Jenkinsfile" }
-      - { name: "jenkins-ip-update", folder: "miscellaneous", repo: "https://github.com/pvattam/miscellaneous-tasks.git", filename: "jenkins-ip-update/Jenkinsfile" }
+      - { name: "expense-ansible", folder: "expense-project/Infra-Jobs", repo: "https://github.com/pvattam/expense-ansible.git", filename: "Jenkins" }
+      - { name: "expense-terraform", folder: "expense-project/Infra-Jobs", repo: "https://github.com/pvattam/expense-terraform.git", filename: "Jenkins" }
+      - { name: "golden-ami", folder: "miscellaneous", repo: "https://github.com/pvattam/golden-ami.git", filename: "Jenkins" }
+      - { name: "aws-parameters", folder: "miscellaneous", repo: "https://github.com/pvattam/aws-parameter-store.git", filename: "Jenkins" }
+      - { name: "jenkins-ip-update", folder: "miscellaneous", repo: "https://github.com/pvattam/miscellaneous-tasks.git", filename: "jenkins-ip-update/Jenkins" }
     fs_jobs:
       - { name: "prometheus-reload", folder: "miscellaneous", filename: "prometheus-reload.xml"}
