@@ -29,7 +29,7 @@
                 <source class="org.jenkinsci.plugins.github_branch_source.GitHubSCMSource" plugin="github-branch-source@1767.va_7d01ea_c7256">
                     <id>7f448b12-c67c-48e6-80f9-3a6f67b1441c</id>
                     <apiUri>https://api.github.com</apiUri>
-                    <credentialsId>github</credentialsId>
+                    <credentialsId>github-token</credentialsId>
                     <repoOwner>pvattam</repoOwner>
                     <repository>{{item.name}}</repository>
                     <repositoryUrl>{{item.repo}}</repositoryUrl>
