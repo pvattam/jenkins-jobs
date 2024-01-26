@@ -12,7 +12,7 @@
       - { name: "expense-backend", folder: "expense-project/CI-Jobs", repo: "https://github.com/pvattam/expense-backend.git"}
       - { name: "expense-frontend", folder: "expense-project/CI-Jobs", repo: "https://github.com/pvattam/expense-frontend.git"}
     sb_jobs:
-      - { name: "expense-ansible", folder: "expense-project/Infra-Jobs", repo: "https://github.com/pvattam/expense-ansible.git", filename: "Jenkinsfile" }
+      - { name: "expense-ansible", folder: "expense-project/Infra-Jobs", repo: "https://github.com/pvattam/expense-ansible.git" }
       - { name: "expense-terraform", folder: "expense-project/Infra-Jobs", repo: "https://github.com/pvattam/expense-terraform.git", filename: "Jenkinsfile" }
       - { name: "golden-ami", folder: "miscellaneous", repo: "https://github.com/pvattam/golden-ami.git", filename: "Jenkinsfile" }
       - { name: "aws-parameters", folder: "miscellaneous", repo: "https://github.com/pvattam/aws-parameter-store.git", filename: "Jenkinsfile" }
