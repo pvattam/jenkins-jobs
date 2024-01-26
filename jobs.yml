@@ -18,4 +18,4 @@
       - { name: "aws-parameters", folder: "miscellaneous", repo: "https://github.com/pvattam/aws-parameter-store.git", filename: "Jenkinsfile" }
       - { name: "jenkins-ip-update", folder: "miscellaneous", repo: "https://github.com/pvattam/miscellaneous-tasks.git", filename: "jenkins-ip-update/Jenkinsfile" }
     fs_jobs:
-      - { name: "prometheus-reload", folder: "miscellaneous", filename: "prometheus-reload.xml"}cd
+      - { name: "prometheus-reload", folder: "miscellaneous", filename: "prometheus-reload.xml"}
